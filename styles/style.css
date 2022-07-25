@@ -23,6 +23,14 @@
     background-color: #F2F4FC;
   }
 
+  .testimonial-section {
+    background-color: #6B708D;
+  }
+
+
+  .newsletter-section {
+    background-color: #FFC600;
+  }
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {}
