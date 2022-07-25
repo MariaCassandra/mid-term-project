@@ -12,32 +12,37 @@
 <body>
     <!-- NAV BAR-->
     <nav class="nav-bar">
-        <span> <img src="#" alt="Circle Agency logo" /> </span>
+        <span> <img src="./assets/logos/circle.svg" alt="Circle Agency logo" /> </span>
         <ul>
-            <li><a href="#index.html"> Home </a></li>
+            <li><a href="index.html"> Home </a></li>
             <li><a href="#project-section"> Projects </a></li>
             <li><a href="#services-section"> Services </a></li>
         </ul>
-        <span><a href="contact.html"> Contact Us </a></span>
+        <span><a href="contact.html" class="contact-btn"> Contact Us </a></span>
     </nav>
     <!-- HERO SECTION-->
-    <header class="hero-section">
+    <header>
+        <div class="hero-section">
+            <div class="hero-textLeft">
         <h1>Empower Your Business With Stunning Design!</h1>
-        <p>
-            Circle is a digital design and development studio. <br />
-            We design and develop astonishing websites <br />
-            and mobile apps.
-        </p>
-        <a href="#" id="in-touch-btn"> Get in Touch </a>
-        <a href="#" id="our-work-btn"> See our work </a>
+        <p> Circle is a digital design and development studio. We design and develop astonishing websites and mobile apps.</p>
+        <a href="contact.html" class="contact-btn"> Get in touch </a>
+        <a href="#projects" id="our-work-btn"> See our work </a>
+        </div>
+        <div class="hero-imagesRight">
+            <img id="hero-card1" src="./assets/hero-section/card-1.png" alt="Your current card">
+            <img id="hero-img" src="./assets/hero-section/hero-image.png" alt="This is our guy">
+            <img id="hero-card2" src="./assets/hero-section/card-2.png" alt="Approved logo">
+        </div>
+        </div>
     </header>
     <!-- COMPANY LOGOS-->
     <section class="collaboration-section">
-        <img src="" alt="" />
-        <img src="" alt="" />
-        <img src="" alt="" />
-        <img src="" alt="" />
-        <img src="" alt="" />
+        <img src="./assets/logos/airbnb-logo.svg" alt="Airbnb">
+        <img src="./assets/logos/google-logo.svg" alt="Google">
+        <img src="./assets/logos/microsoft-logo.svg" alt="Microsoft">
+        <img src="./assets/logos/fedex-logo.svg" alt="FedEx">
+        <img src="./assets/logos/amazon-logo.svg" alt="Amazon">
     </section>
     <!-- PROJECT SECTION -->
     <section class="project-section">
@@ -45,37 +50,37 @@
         <!-- CAROUSEL PROJECTS-->
         <div>
             <article>
-                <img src="" alt="project 1" />
+                <img src="./assets/projects-section/1.jpg" alt="project 1" />
                 <h4>Simplify</h4>
                 <p>UI Design & App Development</p>
                 <a href="#"> Learn more </a>
             </article>
             <article>
-                <img src="" alt="project 2" />
+                <img src="./assets/projects-section/2.jpg" alt="project 2" />
                 <h4>Dashcoin</h4>
                 <p>Web Development</p>
                 <a href="#"> Learn more </a>
             </article>
             <article>
-                <img src="" alt="project 3" />
+                <img src="./assets/projects-section/3.jpg" alt="project 3" />
                 <h4>Vectorify</h4>
                 <p>User Experience Design</p>
                 <a href="#"> Learn more </a>
             </article>
             <article>
-                <img src="" alt="project 4" />
+                <img src="./assets/projects-section/4.jpg" alt="project 4" />
                 <h4>Orbit</h4>
                 <p>UI Design</p>
                 <a href="#"> Learn more </a>
             </article>
             <article>
-                <img src="" alt="project 5" />
+                <img src="./assets/projects-section/5.jpg" alt="project 5" />
                 <h4>Purify</h4>
                 <p>UI/UX Design</p>
                 <a href="#"> Learn more </a>
             </article>
             <article>
-                <img src="" alt="project 6" />
+                <img src="./assets/projects-section/6.jpg" alt="project 6" />
                 <h4>CryptoPie</h4>
                 <p>App Development</p>
                 <a href="#"> Learn more </a>
@@ -84,16 +89,16 @@
     </section>
     <!-- TESTIMONIAL SECTION ** hox, hay un background-image!!! -->
     <section class="testimonial-section">
-        <img src="" alt="testimonial 1" />
-        <img src="" alt="testimonial 2" />
-        <img src="" alt="testimonial 3" />
-        <img src="" alt="testimonial 4" />
+        <img src="./assets/testimonial-section/memoji-1.png" alt="testimonial 1"/>
+        <img src="./assets/testimonial-section/memoji-2.png" alt="testimonial 2"/>
+        <img src="./assets/testimonial-section/memoji-3.png" alt="testimonial 3"/>
+        <img src="./assets/testimonial-section/memoji-4.png" alt="testimonial 4"/>
         <h2>Hear What Our Clients Have to Say</h2>
         <p>
-            Circle helped us through every stage of our startup. <br />
-            We really enjoyed working with you.
+            "Circle helped us through every stage of our startup. <br />
+            We really enjoyed working with you."
         </p>
-        <img src="" alt="Kristin Watson" />
+        <img src="./assets/testimonial-section/profile.png" alt="Kristin Watson"/>
         <h5>Kristin Watson</h5>
         <p>Booking.com</p>
     </section>
@@ -101,7 +106,7 @@
     <section class="services-section">
         <h2>Our Services</h2>
         <div>
-            <img src="#" alt="" />
+            <img class="service-image" src="./assets/services-section/icons/1.svg" alt="Design logo"/>
             <h3>User interface Design</h3>
             <p>
                 Circle provides you with a stunning user interface design that is
@@ -110,7 +115,7 @@
             <a href="#"> Learn more </a>
         </div>
         <div>
-            <img src="#" alt="" />
+            <img class="service-image" src="./assets/services-section/icons/2.svg" alt="Design logo"/>
             <h3>User Experience Design</h3>
             <p>
                 Circle always focuses on delivering the best user experience to your
@@ -119,7 +124,7 @@
             <a href="#"> Learn more </a>
         </div>
         <div>
-            <img src="#" alt="" />
+            <img class="service-image" src="./assets/services-section/icons/3.svg" alt="Design logo"/>
             <h3>Application Development</h3>
             <p>
                 We deliver high-quality mobile and web applications using the latest
@@ -138,15 +143,17 @@
         </form>
         <button class="subscribe-btn">Subscribe</button>
     </section>
-    <footer>
-        <img src="#" alt="Circle Agency logo" />
-        <p>2972 Westheimer Rd. Santa Ana, Illinois 85486</p>
-        <a href="#"> Team </a>
-        <a href="#"> Services </a>
-        <a href="#"> About Us </a>
-        <a href="#"> Press </a>
-        <a href="#"> Projects </a>
-        <a href="#"> Privacy policy </a>
+    <footer class="footer-section">
+        <img src="./assets/logos/circle.svg" alt="Circle Agency logo" />
+        <p class="footer-address">2972 Westheimer Rd. Santa Ana, Illinois 85486</p>
+        <div class="footer-links">
+        <a href="#" class="footer-link"> Team </a>
+        <a href="#" class="footer-link"> Services </a>
+        <a href="#" class="footer-link"> About Us </a>
+        <a href="#" class="footer-link"> Press </a>
+        <a href="#" class="footer-link"> Projects </a>
+        <a href="#" class="footer-link"> Privacy policy </a>
+        </div>
     </footer>
     <script src="./scr/index.js"></script>
 </body>
