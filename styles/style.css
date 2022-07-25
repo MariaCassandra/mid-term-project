@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100;300;400;500;700;900');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,regular,500,700');
 
 /* colors
     Primary-blue : #072AC8
@@ -14,23 +14,158 @@
 
 
 * {
-    margin: 0;
-    padding: 0;
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
   }
   
   body {
-    font-family: Roboto;
-    background-color: #F2F4FC;
+    background-color: #f2f4fc;
+    font-family: Roboto, sans-serif;
   }
 
+  nav {
+    
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  nav ul li,
+  a {
+    list-style: none;
+    display: inline-block;
+    text-decoration: none;
+    color: #6b708d;
+  }
+
+  nav ul li,
+  a:hover {
+    color: #072ac8;
+  }
+
+  /* current page no funciona */
+  nav ul li a.current {
+    color: #072ac8;
+  }
+
+.circle-logo {
+  width: 60px;
+  height: 60px;
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.contact-btn,
+.subscribe-btn {
+  background-color: #072ac8;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.contact-btn:hover,
+.subscribe-btn:hover {
+  background-color: #43d2ff;
+}
+
+.hero-textLeft h1 {
+  color: #292e47;
+}
+
+.hero-textLeft p {
+  color: #6b708d;
+}
+
+#hero-card1,
+#hero-card2 {
+  width: 328px;
+}
+
+#hero-img {
+  width: 20%;
+}
+
+.collaboration-section {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.project-section {
+  background-color: #f2f4fc;
+
+}
+
+.project-card {
+  background-color: #fff;
+}
+
+.project-card img {
+  width: 20%;
+  height: 20%;
+}
+
+.project-card a {
+  color: #072ac8;
+  font-weight: bold;
+}
+
   .testimonial-section {
-    background-color: #6B708D;
+    background-color: #292e47;
     background-image: url(/assets/testimonial-section/orbit.png);
   }
 
+  .testimonial-section h2 {
+    color: #f2f4fc;
+  }
+
+  .memoji {
+    width: 100px;
+    height: 100px;
+  }
+
+  .testimonial-text {
+    color: #FFC600;
+  }
+
+  .testimonial-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+
+  .testimonial-name {
+    color: #a2d6f9;
+  }
+
+  .testimonial-booking {
+    color: #f2f4fc;
+    font-size: 13px;
+  }
+
+  .service-image {
+    width: 30px;
+    height: 30px;
+  }
+
+  .services-section a {
+    color: #072ac8;
+  }
 
   .newsletter-section {
     background-color: #FFC600;
+    color: #292e47;
+  }
+
+  .footer-address {
+    color: #6b708d;
+  }
+
+
+  .footer-link {
+    text-decoration: none;
+    color: #6b708d;
   }
 
 /* Extra small devices (phones, 600px and down) */

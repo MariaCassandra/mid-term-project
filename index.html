@@ -12,9 +12,9 @@
 <body>
     <!-- NAV BAR-->
     <nav class="nav-bar">
-        <span> <img src="./assets/logos/circle.svg" alt="Circle Agency logo" /> </span>
+        <span> <img class="circle-logo" src="./assets/logos/circle.svg" alt="Circle Agency logo" /> </span>
         <ul>
-            <li><a href="index.html"> Home </a></li>
+            <li><a href="#index.html"> Home </a></li>
             <li><a href="#project-section"> Projects </a></li>
             <li><a href="#services-section"> Services </a></li>
         </ul>
@@ -47,39 +47,39 @@
     <!-- PROJECT SECTION -->
     <section class="project-section">
         <h2>Recent projects</h2>
-        <!-- CAROUSEL PROJECTS-->
+        <!-- CAROUSEL OF PROJECTS dispay 3 at once-->
         <div>
-            <article>
+            <article class="project-card">
                 <img src="./assets/projects-section/1.jpg" alt="project 1" />
                 <h4>Simplify</h4>
                 <p>UI Design & App Development</p>
                 <a href="#"> Learn more </a>
             </article>
-            <article>
+            <article class="project-card">
                 <img src="./assets/projects-section/2.jpg" alt="project 2" />
                 <h4>Dashcoin</h4>
                 <p>Web Development</p>
                 <a href="#"> Learn more </a>
             </article>
-            <article>
+            <article class="project-card">
                 <img src="./assets/projects-section/3.jpg" alt="project 3" />
                 <h4>Vectorify</h4>
                 <p>User Experience Design</p>
                 <a href="#"> Learn more </a>
             </article>
-            <article>
+            <article class="project-card">
                 <img src="./assets/projects-section/4.jpg" alt="project 4" />
                 <h4>Orbit</h4>
                 <p>UI Design</p>
                 <a href="#"> Learn more </a>
             </article>
-            <article>
+            <article class="project-card">
                 <img src="./assets/projects-section/5.jpg" alt="project 5" />
                 <h4>Purify</h4>
                 <p>UI/UX Design</p>
                 <a href="#"> Learn more </a>
             </article>
-            <article>
+            <article class="project-card">
                 <img src="./assets/projects-section/6.jpg" alt="project 6" />
                 <h4>CryptoPie</h4>
                 <p>App Development</p>
@@ -89,18 +89,15 @@
     </section>
     <!-- TESTIMONIAL SECTION ** hox, hay un background-image!!! -->
     <section class="testimonial-section">
-        <img src="./assets/testimonial-section/memoji-1.png" alt="testimonial 1"/>
-        <img src="./assets/testimonial-section/memoji-2.png" alt="testimonial 2"/>
-        <img src="./assets/testimonial-section/memoji-3.png" alt="testimonial 3"/>
-        <img src="./assets/testimonial-section/memoji-4.png" alt="testimonial 4"/>
+        <img class="memoji" id="memoji1" src="./assets/testimonial-section/memoji-1.png" alt="testimonial 1"/>
+        <img class="memoji" id="memoji2" src="./assets/testimonial-section/memoji-2.png" alt="testimonial 2"/>
+        <img class="memoji" id="memoji3" src="./assets/testimonial-section/memoji-3.png" alt="testimonial 3"/>
+        <img class="memoji" id="memoji4" src="./assets/testimonial-section/memoji-4.png" alt="testimonial 4"/>
         <h2>Hear What Our Clients Have to Say</h2>
-        <p>
-            "Circle helped us through every stage of our startup. <br />
-            We really enjoyed working with you."
-        </p>
-        <img src="./assets/testimonial-section/profile.png" alt="Kristin Watson"/>
-        <h5>Kristin Watson</h5>
-        <p>Booking.com</p>
+        <p class="testimonial-text"> "Circle helped us through every stage of our startup. We really enjoyed working with you." </p>
+        <img class="testimonial-image" src="./assets/testimonial-section/profile.png" alt="Kristin Watson"/>
+        <h5 class="testimonial-name">Kristin Watson</h5>
+        <p class="testimonial-booking">Booking.com</p>
     </section>
     <!-- SERVICES SECTION-->
     <section class="services-section">
@@ -137,14 +134,14 @@
     <section class="newsletter-section">
         <h3>Do you have any questions?</h3>
         <p>Let us help you!</p>
-        <form>
-            <input type="text" placeholder="Enter your email" />
-            <input type="submit" value="Subscribe" />
-        </form>
-        <button class="subscribe-btn">Subscribe</button>
+        <form id="newsletter-form" name="email-form" method="get" class="form">
+            <input type="email" class="newsletter-input" maxlength="256" placeholder="Enter your email" required="">
+            <img src="./assets/newsletter/icon/mail.svg">
+            <button class="subscribe-btn">Subscribe</button>
+            </form>
     </section>
     <footer class="footer-section">
-        <img src="./assets/logos/circle.svg" alt="Circle Agency logo" />
+        <img class="circle-logo" src="./assets/logos/circle.svg" alt="Circle Agency logo" />
         <p class="footer-address">2972 Westheimer Rd. Santa Ana, Illinois 85486</p>
         <div class="footer-links">
         <a href="#" class="footer-link"> Team </a>
