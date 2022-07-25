@@ -1,4 +1,17 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100;300;400;500;700;900');
+
+/* colors
+    Primary-blue : #072AC8
+    Primary-2 : #43D2FF
+    Primary-3 : #A2D6F9
+    Primary-4 : #D1EDFF
+    Section titles : #292E47
+    Testimonials background-color : #6B708D
+    General background-color: #F2F4FC
+    Neutral-4 : #ECF7FF
+    Newsletter background-color : #FFC600
+*/
+
 
 * {
     margin: 0;
@@ -7,6 +20,7 @@
   
   body {
     font-family: Roboto;
+    background-color: #F2F4FC;
   }
 
 
