@@ -12,32 +12,38 @@
 <body>
     <!-- NAV BAR-->
     <nav class="nav-bar">
-        <span> <img class="circle-logo" src="./assets/logos/circle.svg" alt="Circle Agency logo" /> </span>
+        <img class="circle-logo" src="./assets/logos/circle.svg" alt="Circle Agency logo"/>
         <ul>
-            <li><a href="#index.html"> Home </a></li>
-            <li><a href="#project-section"> Projects </a></li>
-            <li><a href="#services-section"> Services </a></li>
+            <li><a href="index.html"> Home </a></li>
+            <li><a href="index.html"> Projects </a></li>
+            <li><a href="index.html"> Services </a></li>
         </ul>
-        <span><a href="contact.html" class="contact-btn"> Contact Us </a></span>
+        <a href="contact.html" class="contact-btn"> Contact Us </a>
     </nav>
     <!-- CONTACT US SECTION-->
-    <section class="contact-us">
-        <h2>Contact Us</h2>
-        <form action="GET" class="contact-form">
-            <label for="name">Full Name *</label>
-            <input type="text" placeholder="Enter your full name"/>
-
-            <label for="email">Email</label>
-            <input type="email" placeholder="Enter your email"/>
-
-            <label class="labelText" for="phone">Phone</label>
-            <input type="number" placeholder="Enter your phone number">
-
-            <label for="message">Message</label>
-            <textarea name="message" cols="30" rows="10" placeholder="Write your message here...."></textarea>
-            <input type="submit" value="Send"/>
+    <section class="contact-section">
+        <h1>Contact Us</h1>
+        <form action="/register" class="contact-form" method="post">
+            
+                <label for="name">Full Name *</label>
+                <input type="text" placeholder="Enter your full name"/>
+           
+           <div class="center-form-inputs">
+                <label for="email">Email</label>
+                <input type="email" placeholder="Enter your email"/>
+          
+                <label class="labelText" for="phone">Phone</label>
+                <input type="text" placeholder="Enter your phone number">
+            
+            </div>
+                <label for="message">Message</label>
+                <textarea name="message" placeholder="Write your message here...."></textarea>
+            
+            
+                 <button class="contact-submit-btn">Submit</button>
+            
         </form>
-        <button class="submit-btn">Submit</button>
+       
     </section>
     <!-- FOOTER -->
 <footer class="footer-section">
