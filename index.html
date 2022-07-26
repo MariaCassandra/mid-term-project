@@ -24,10 +24,10 @@
     <header>
         <div class="hero-section">
             <div class="hero-textLeft">
-                <h1>Empower Your Business With Stunning Design!</h1>
-                <p> Circle is a digital design and development studio. We design and develop astonishing websites and mobile apps.</p>
+                <h1>Empower Your <br> Business With <br> Stunning Design!</h1>
+                <p> Circle is a digital design and development studio. <br> We design and develop astonishing websites <br> and mobile apps.</p>
                 <a href="contact.html" class="contact-btn"> Get in touch </a>
-                <a href="#projects" id="our-work-btn"> See our work </a>
+                <a href="#projects" class="our-work-btn"> See our work </a>
             </div>
             <div class="hero-imagesRight">
                 <img id="hero-card1" src="./assets/hero-section/card-1.png" alt="Your current card">
@@ -47,8 +47,8 @@
     <!-- PROJECT SECTION -->
     <section class="project-section">
         <h2>Recent projects</h2>
-        <!-- CAROUSEL OF PROJECTS dispay 3 at once-->
-        <div>
+        <!-- CAROUSEL OF PROJECTS display 3 at once-->
+        <div class="project-container">
             <article class="project-card">
                 <img src="./assets/projects-section/1.jpg" alt="project 1" />
                 <h4>Simplify</h4>
@@ -67,6 +67,7 @@
                 <p>User Experience Design</p>
                 <a href="#"> Learn more </a>
             </article>
+            <!-- hide last 3 until I have the solution
             <article class="project-card">
                 <img src="./assets/projects-section/4.jpg" alt="project 4" />
                 <h4>Orbit</h4>
@@ -85,6 +86,7 @@
                 <p>App Development</p>
                 <a href="#"> Learn more </a>
             </article>
+             -->
         </div>
     </section>
     <!-- TESTIMONIAL SECTION ** hox, hay un background-image!!! -->
@@ -94,15 +96,17 @@
         <img class="memoji" id="memoji3" src="./assets/testimonial-section/memoji-3.png" alt="testimonial 3"/>
         <img class="memoji" id="memoji4" src="./assets/testimonial-section/memoji-4.png" alt="testimonial 4"/>
         <h2>Hear What Our Clients Have to Say</h2>
-        <p class="testimonial-text"> "Circle helped us through every stage of our startup. We really enjoyed working with you." </p>
+        <p class="testimonial-text"> "Circle helped us through every stage of our startup. <br> We really enjoyed working with you." </p>
+        <div class="testimonial-author">
         <img class="testimonial-image" src="./assets/testimonial-section/profile.png" alt="Kristin Watson"/>
         <h5 class="testimonial-name">Kristin Watson</h5>
         <p class="testimonial-booking">Booking.com</p>
+        </div>
     </section>
     <!-- SERVICES SECTION-->
     <section class="services-section">
         <h2>Our Services</h2>
-        <div>
+        <div class="service-card">
             <img class="service-image" src="./assets/services-section/icons/1.svg" alt="Design logo"/>
             <h3>User interface Design</h3>
             <p>
@@ -111,7 +115,7 @@
             </p>
             <a href="#"> Learn more </a>
         </div>
-        <div>
+        <div class="service-card">
             <img class="service-image" src="./assets/services-section/icons/2.svg" alt="Design logo"/>
             <h3>User Experience Design</h3>
             <p>
@@ -120,7 +124,7 @@
             </p>
             <a href="#"> Learn more </a>
         </div>
-        <div>
+        <div class="service-card">
             <img class="service-image" src="./assets/services-section/icons/3.svg" alt="Design logo"/>
             <h3>Application Development</h3>
             <p>
@@ -130,7 +134,7 @@
             <a href="#"> Learn more </a>
         </div>
     </section>
-    <!-- NEWSLETTER SECTION-->
+    <!-- NEWSLETTER SECTION  como meter el icono de sobre en input??? -->
     <section class="newsletter-section">
         <h3>Do you have any questions?</h3>
         <p>Let us help you!</p>
@@ -141,15 +145,17 @@
             </form>
     </section>
     <footer class="footer-section">
-        <img class="circle-logo" src="./assets/logos/circle.svg" alt="Circle Agency logo" />
-        <p class="footer-address">2972 Westheimer Rd. Santa Ana, Illinois 85486</p>
+        <div class="footer-container">
+            <img class="circle-logo" src="./assets/logos/circle.svg" alt="Circle Agency logo" />
+            <p class="footer-address">2972 Westheimer Rd. Santa Ana, <br> Illinois 85486</p>
+        </div>
         <div class="footer-links">
-        <a href="#" class="footer-link"> Team </a>
-        <a href="#" class="footer-link"> Services </a>
-        <a href="#" class="footer-link"> About Us </a>
-        <a href="#" class="footer-link"> Press </a>
-        <a href="#" class="footer-link"> Projects </a>
-        <a href="#" class="footer-link"> Privacy policy </a>
+            <a href="#" class="footer-link"> Team </a>
+            <a href="#" class="footer-link"> Services </a>
+            <a href="#" class="footer-link"> About Us </a>
+            <a href="#" class="footer-link"> Press </a>
+            <a href="#" class="footer-link"> Projects </a>
+            <a href="#" class="footer-link"> Privacy policy </a>
         </div>
     </footer>
     <script src="./scr/index.js"></script>
