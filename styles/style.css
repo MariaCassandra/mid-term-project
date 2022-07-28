@@ -367,6 +367,15 @@
   grid-template-columns: repeat(3, 1fr);
 }
 
+/* SIMPLIFY SECTION */
+.simplify-main-image {
+  width: 100%;
+}
+
+/* CONTACT FORM */
+
+
+
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 600px) {
