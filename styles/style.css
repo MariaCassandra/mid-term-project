@@ -581,6 +581,7 @@
 
 .project-article  {
   background-color: #fff;
+  box-shadow: 0px 38.7755px 77.551px rgba(159, 1, 238, 0.1);
 
 }
 /* testimonial section */
@@ -621,6 +622,19 @@
 
 
 /* SIMPLIFY PAGE */
+
+.simplify-section {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: space-around;
+  padding: 3rem;
+}
+
+.simplify-main-image {
+  height: 60vh;
+  box-shadow: 10px 10px 5px rgba(159, 1, 238, 0.1);
+}
 
 /* CONTACT PAGE */
 }
