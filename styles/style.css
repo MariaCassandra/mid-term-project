@@ -1,17 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,regular,500,700');
 
-/* colors
-    Primary-blue : #072AC8
-    Primary-2 : #43D2FF
-    Primary-3 : #A2D6F9
-    Primary-4 : #D1EDFF
-    Section titles : #292E47
-    Testimonials background-color : #6B708D
-    General background-color: #F2F4FC
-    Neutral-4 : #ECF7FF
-    Newsletter background-color : #FFC600
-*/
-
 * {
 	margin: 0;
 	padding: 0;
@@ -41,11 +29,10 @@
   
   .topnav a:hover {
     background-color: #f2f4fc;
-    color: #292e47;
+    color: #072ac8;
   }
   
   .topnav a.active {
-    background-color: #f2f4fc;
     color: #072ac8;
   }
   
@@ -74,7 +61,7 @@
 
 .hero-contact-btn {
   background-color: #072ac8;
-  color: #fff;
+  color: #f2f4fc;
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
@@ -335,7 +322,7 @@
 
 .subscribe-btn {
   background-color: #072ac8;
-  color: #fff;
+  color: #f2f4fc;
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
@@ -462,7 +449,7 @@
 
 .contact-submit-btn {
   background-color: #072ac8;
-  color: #fff;
+  color: #f2f4fc;
   padding: 1rem 1.25rem;
   font-size: 1rem;
   cursor: pointer;
@@ -499,4 +486,141 @@
     display: block;
     text-align: left;
   }
+}
+
+/* tablets  
+@media (max-width: 990px) {}
+*/
+
+/* Desktop devices */
+
+@media (min-width: 991px) {
+
+  /* mavbar */
+  #myTopnav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1.8rem;
+  }
+
+#topnav-contact-btn {
+  background-color: #072ac8;
+  color: #f2f4fc;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+
+#topnav-contact-btn:hover {
+  background-color: #43d2ff;
+  color: #072ac8;
+}
+
+/* hero section */
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.hero-article-left {
+  width: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+/* needs to be inline - my code isn't working */
+.hero-contact-btn, 
+.our-work-btn {
+  display: flex;
+  flex-direction: row;
+}
+
+.hero-headline {
+  font-size: 4rem;
+  line-height: 4rem;
+  padding-bottom: 1rem;
+}
+
+.hero-article-right {
+  width: 70vh
+}
+
+/* company section */
+
+.collaboration-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 3rem;
+}
+
+.collaboration-section img:hover {
+  filter: none;
+  cursor: pointer;
+}
+
+/* project section */
+
+.project-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin: 3rem;
+}
+
+.project-article  {
+  background-color: #fff;
+
+}
+/* testimonial section */
+#memoji1 {
+  width: 10%;
+}
+
+#memoji2 {
+  width: 10%;
+}
+
+#memoji3 {
+  width: 10%;
+}
+
+#memoji4 {
+  width: 10%;
+}
+
+/* services section */
+
+.services-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 3rem;
+}
+
+.services-article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+}
+/* newsletter section */
+/* footer */
+
+
+/* SIMPLIFY PAGE */
+
+/* CONTACT PAGE */
 }
