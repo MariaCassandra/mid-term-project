@@ -63,6 +63,7 @@
   color: #292e47;
   line-height: 2rem;
   font-size: 2rem;
+  text-align: center;
 }
 
 .hero-paragraph {
@@ -130,12 +131,12 @@
 
 .collaboration-section img {
   filter: grayscale(100%);
-  width: 30%;
-  padding-bottom: 2rem;
+  padding: 0 0 1.5rem 0;
 }
 
 .collaboration-section img:hover {
   transform: scale(1.4);
+  cursor: pointer;
 }
 
   /* PROJECT SECTION */
@@ -263,7 +264,7 @@
   
 .services-section h2 {
   color: #292e47;
-  padding-top: 1.5rem;
+  padding-top: 3rem;
   padding-bottom: 1.5rem;
 }
   
@@ -280,20 +281,23 @@
   margin-left: 1.5rem;
 }
   
-.services-section h3, p {
+.services-article-subtitle,
+.services-article-paragraph {
   color: #6b708d;
   margin-bottom: 0.5rem;
   margin-left: 1.5rem;
+  margin-right: 1.5rem;
 }
   
-.services-section a {
+.services-article a {
   color: #072ac8;
   text-decoration: none;
   font-weight: 500;
   margin-left: 1.5rem;
+  padding-bottom: 1rem;
 }
   
-.services-section a:hover {
+.services-article a:hover {
   text-decoration: underline;
   cursor: pointer;
 }
@@ -384,6 +388,37 @@
 /* SIMPLIFY SECTION */ 
 .simplify-main-image {
   width: 100%;
+}
+
+.simplify-title {
+  color: #292e47;
+  padding: 1.5rem 1rem;
+  font-size: 2rem;
+}
+
+.simplify-subtitle {
+  color: #6b708d;
+  padding: 0 1rem 0.25rem;
+}
+
+.simplify-completed-text {
+  display: flex;
+  flex-direction: row;
+  float: left;
+  margin-left: 1rem;
+}
+
+.simplify-completed-text em {
+  color: #292e47;
+  font-style: normal;
+  margin-right: 0.25rem;
+}
+
+.simplify-description {
+  display: flex;
+  flex-direction: column;
+  margin: 1.5rem 1.5rem 1rem 0;
+
 }
 
 /* CONTACT FORM */
