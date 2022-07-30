@@ -129,6 +129,7 @@
 }
 
 .collaboration-section img {
+  filter: grayscale(100%);
   width: 30%;
   padding-bottom: 2rem;
 }
