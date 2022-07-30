@@ -397,6 +397,7 @@
   color: #292e47;
   font-size: 2rem;
   text-align: center;
+  padding-top: 1.5rem;
   margin-bottom: 2rem;
 }
 
@@ -409,6 +410,8 @@
 
 .contact-form label {
   color: #687080;
+  padding-top: 1rem;
+  padding-bottom: 0.75rem;
 }
 
 .contact-form input, .contact-form textarea {
@@ -416,6 +419,26 @@
   padding: 0.75rem;
   border: none;
   margin-bottom: 0.5rem;
+}
+
+.contact-form textarea {
+  font-family: Roboto, sans-serif;
+}
+
+.contact-submit-btn {
+  background-color: #072ac8;
+  color: #fff;
+  padding: 1rem 1.25rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  text-decoration: none;
+  margin: 0 1rem;
+}
+
+.contact-submit-btn:hover {
+  background-color: #43d2ff;
+  color: #072ac8;
 }
 
 
