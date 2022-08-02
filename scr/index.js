@@ -6,3 +6,10 @@ function myFunction() {
       x.className = "topnav";
     }
   }
+
+  function clicked(e)
+{
+    if(!confirm('Your message has been sent!')) {
+        e.preventDefault();
+    }
+}

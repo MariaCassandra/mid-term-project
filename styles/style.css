@@ -74,6 +74,7 @@ body {
 .hero-contact-btn:hover {
   background-color: #43d2ff;
   color: #072ac8;
+  transition: .5s ease-in-out 0s;
 }
 
 .our-work-btn {
@@ -83,6 +84,12 @@ body {
   justify-content: center;
   padding-top: 1.5rem;
   padding-bottom: 2rem;
+}
+
+.our-work-btn:hover {
+  color: #072ac8;
+  transform: scale(1.1);
+  transition: .5s ease-in-out 0s;
 }
 
 .hero-article-right {
@@ -124,6 +131,7 @@ body {
 .collaboration-section img:hover {
   transform: scale(1.4);
   cursor: pointer;
+  transition: .5s ease-in-out 0s;
 }
 
 /* PROJECT SECTION */
@@ -338,6 +346,7 @@ p {
 .subscribe-btn:hover {
   background-color: #43d2ff;
   color: #072ac8;
+  transition: .5s ease-in-out 0s;
 }
 
 /* FOOTER SECTION */
@@ -465,6 +474,7 @@ p {
 .contact-submit-btn:hover {
   background-color: #43d2ff;
   color: #072ac8;
+  transition: .5s ease-in-out 0s;
 }
 
 /* MEDIA QUERIES */
@@ -508,6 +518,10 @@ p {
     align-items: center;
     justify-content: space-around;
     padding: 1.8rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: #f2f4fc;
   }
 
   #topnav-contact-btn {
@@ -525,6 +539,7 @@ p {
   #topnav-contact-btn:hover {
     background-color: #43d2ff;
     color: #072ac8;
+    transition: .5s ease-in-out 0s;
   }
 
   /* hero section */
@@ -543,11 +558,16 @@ p {
     align-items: flex-start;
     justify-content: flex-start;
   }
-  /* needs to be inline - my code isn't working */
-  .hero-contact-btn,
-  .our-work-btn {
+
+  .hero-button-container {
     display: flex;
     flex-direction: row;
+    gap: 1rem;
+  }
+
+  .hero-contact-btn {
+    align-self: center;
+    padding: 1rem;
   }
 
   .hero-headline {
@@ -598,6 +618,10 @@ p {
     box-shadow: 0px 2.5rem 4.8rem rgba(159, 1, 238, 0.1);
   }
 
+  .project-article img {
+    width: 100%;
+  }
+
 
   /* testimonial section */
   #memoji1 {
@@ -639,6 +663,15 @@ p {
     justify-content: space-between;
     background-color: #fff;
   }
+
+  .service-image {
+    margin: 1rem;
+  }
+
+  .services-article-paragraph {
+    text-align: left;
+    padding: 0.75rem 0;
+  }
   /* newsletter section */
   
   .newsletter-section {
@@ -670,6 +703,10 @@ p {
     padding: 3rem;
   }
 
+  .simplify-completed-text {
+    align-self: flex-end;
+  }
+
   .simplify-main-image {
     height: 60vh;
     box-shadow: 10px 10px 5px rgba(159, 1, 238, 0.1);
@@ -692,6 +729,10 @@ p {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 0.75rem;
+  }
+
+  .contact-form textarea {
+    height: 6rem;
   }
 
   .contact-submit-btn {
