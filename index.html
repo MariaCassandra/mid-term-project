@@ -1,31 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles/style.css"/>
+    <link rel="stylesheet" href="./styles/style.css" />
     <link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css>
     <title>Mid-term project Ironhack</title>
 </head>
 
-<body> 
+<body>
     <!-- NAV BAR-->
     <div class="topnav" id="myTopnav">
-        <a href="index.html"> <img src="./assets/logos/circle.svg" alt="Circle Agency Logo"></a>
+        <a id="topnav-logo" href="index.html"> <img src="./assets/logos/circle.svg" alt="Circle Agency Logo"></a>
         <a class="active" href="index.html"> Home </a>
         <a href="#project-section"> Projects </a>
         <a href="##services-section"> Services </a>
-        <a id="topnav-contact-btn" href="contact.html">  Contact Us </a>
+        <a id="topnav-contact-btn" href="contact.html"> Contact Us </a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <i class="fa fa-bars"></i>
+            <i class="fa fa-bars"></i>
         </a>
-      </div>
-      <!-- HERO SECTION -->
+    </div>
+    <!-- HERO SECTION -->
     <section class="hero-section">
         <article class="hero-article-left">
             <h1 class="hero-headline">Empower Your Business With Stunning Design!</h1>
-            <p class="hero-paragraph"> Circle is a digital design and development studio. We design and develop astonishing websites and mobile apps.</p>
+            <p class="hero-paragraph"> Circle is a digital design and development studio. We design and develop
+                astonishing websites and mobile apps.</p>
             <a href="contact.html" class="hero-contact-btn"> Get in touch </a>
             <a href="#projects" class="our-work-btn"> See our work </a>
         </article>
@@ -34,7 +36,7 @@
             <img id="hero-card1" src="./assets/hero-section/card-1.png" alt="Your current card">
             <img id="hero-card2" src="./assets/hero-section/card-2.png" alt="Approved logo">
         </article>
-</section>    
+    </section>
     <!-- COMPANY LOGOS-->
     <section class="collaboration-section">
         <a href="https://www.airbnb.com/"> <img src="./assets/logos/airbnb-logo.svg" alt="Airbnb"></a>
@@ -46,59 +48,64 @@
     <!-- PROJECT SECTION -->
     <section class="project-section">
         <h2>Recent projects</h2>
-            <article class="project-article">
-                <img src="./assets/projects-section/1.jpg" alt="project 1"/>
-                <h3>Simplify</h3>
-                <p>UI Design & App Development</p>
-                <a href="simplify.html"> Learn more </a>
-            </article>
-            <article class="project-article">
-                <img src="./assets/projects-section/2.jpg" alt="project 2"/>
-                <h3>Dashcoin</h3>
-                <p>Web Development</p>
-                <a href="#"> Learn more </a>
-            </article>
-            <article class="project-article">
-                <img src="./assets/projects-section/3.jpg" alt="project 3"/>
-                <h3>Vectorify</h3>
-                <p>User Experience Design</p>
-                <a href="#"> Learn more </a>
-            </article>
+        <div class="project-article-container">
+        <article class="project-article">
+            <img src="./assets/projects-section/1.jpg" alt="project 1" />
+            <h3>Simplify</h3>
+            <p>UI Design & App Development</p>
+            <a href="simplify.html"> Learn more </a>
+        </article>
+        <article class="project-article">
+            <img src="./assets/projects-section/2.jpg" alt="project 2" />
+            <h3>Dashcoin</h3>
+            <p>Web Development</p>
+            <a href="#"> Learn more </a>
+        </article>
+        <article class="project-article">
+            <img src="./assets/projects-section/3.jpg" alt="project 3" />
+            <h3>Vectorify</h3>
+            <p>User Experience Design</p>
+            <a href="#"> Learn more </a>
+        </article>
+        </div>
     </section>
     <!-- TESTIMONIAL SECTION -->
     <section class="testimonial-section">
-        <img class="memoji" id="memoji1" src="./assets/testimonial-section/memoji-1.png" alt="testimonial 1"/>
-        <img class="memoji" id="memoji2" src="./assets/testimonial-section/memoji-2.png" alt="testimonial 2"/>
-        <img class="memoji" id="memoji3" src="./assets/testimonial-section/memoji-3.png" alt="testimonial 3"/>
-        <img class="memoji" id="memoji4" src="./assets/testimonial-section/memoji-4.png" alt="testimonial 4"/>
+        <img class="memoji" id="memoji1" src="./assets/testimonial-section/memoji-1.png" alt="testimonial 1" />
+        <img class="memoji" id="memoji2" src="./assets/testimonial-section/memoji-2.png" alt="testimonial 2" />
+        <img class="memoji" id="memoji3" src="./assets/testimonial-section/memoji-3.png" alt="testimonial 3" />
+        <img class="memoji" id="memoji4" src="./assets/testimonial-section/memoji-4.png" alt="testimonial 4" />
         <h2>Hear What Our Clients Have to Say</h2>
-        <p class="testimonial-text"> "Circle helped us through every stage of our startup. We really enjoyed working with you." </p>
+        <p class="testimonial-text"> "Circle helped us through every stage of our startup. We really enjoyed working
+            with you." </p>
         <div class="testimonial-author">
-        <img class="testimonial-image" src="./assets/testimonial-section/profile.png" alt="Kristin Watson"/>
-        <h5 class="testimonial-name">Kristin Watson</h5>
-        <p class="testimonial-booking">Booking.com</p>
+            <img class="testimonial-image" src="./assets/testimonial-section/profile.png" alt="Kristin Watson" />
+            <h5 class="testimonial-name">Kristin Watson</h5>
+            <p class="testimonial-booking">Booking.com</p>
     </section>
     <!-- SERVICES SECTION -->
     <section class="services-section">
         <h2>Our Services</h2>
-            <article class="services-article">
-                <img class="service-image" src="./assets/services-section/icons/1.svg" alt="Design logo"/>
-                <h3 class="services-article-subtitle">User interface Design</h3>
-                <p class="services-article-paragraph"> Circle provides you with a stunning user interface design that is accessible to everyone.</p>
-                <a href="#"> Learn more </a>
-            </article>
-            <article class="services-article">
-                <img class="service-image" src="./assets/services-section/icons/2.svg" alt="Design logo"/>
-                <h3 class="services-article-subtitle">User Experience Design</h3>
-                <p class="services-article-paragraph">Circle always focuses on delivering the best user experience to your customers.</p>
-                <a href="#"> Learn more </a>
-            </article>
-            <article class="services-article">
-                <img class="service-image" src="./assets/services-section/icons/3.svg" alt="Design logo"/>
-                <h3 class="services-article-subtitle">Application Development</h3>
-                <p class="services-article-paragraph">We deliver high-quality mobile and web applications using the latest technology stack.</p>
-                <a href="#"> Learn more </a>
-            </article>
+        <div class="services-container">
+        <article class="services-article">
+            <img class="service-image" src="./assets/services-section/icons/1.svg" alt="Design logo" />
+            <h3 class="services-article-subtitle">User interface Design</h3>
+            <p class="services-article-paragraph"> Circle provides you with a stunning user interface design that is accessible to everyone.</p>
+            <a href="#"> Learn more </a>
+        </article>
+        <article class="services-article">
+            <img class="service-image" src="./assets/services-section/icons/2.svg" alt="Design logo" />
+            <h3 class="services-article-subtitle">User Experience Design</h3>
+            <p class="services-article-paragraph">Circle always focuses on delivering the best user experience to your customers.</p>
+            <a href="#"> Learn more </a>
+        </article>
+        <article class="services-article">
+            <img class="service-image" src="./assets/services-section/icons/3.svg" alt="Design logo" />
+            <h3 class="services-article-subtitle">Application Development</h3>
+            <p class="services-article-paragraph">We deliver high-quality mobile and web applications using the latest technology stack.</p>
+            <a href="#"> Learn more </a>
+        </article>
+        </div>
     </section>
     <!-- NEWSLETTER SECTION -->
     <section class="newsletter-section">
@@ -106,8 +113,8 @@
         <p>Let us help you!</p>
         <form id="newsletter-form" name="email-form" method="get">
             <input type="email" class="newsletter-input" maxlength="256" placeholder="Enter your email" required>
-            </form>
-            <button class="subscribe-btn">Subscribe</button>
+        </form>
+        <button class="subscribe-btn">Subscribe</button>
     </section>
     <!-- FOOTER SECTION -->
     <footer class="footer-section">
@@ -123,6 +130,7 @@
             <a href="#" class="footer-link"> Projects </a>
             <a href="#" class="footer-link"> Privacy policy </a>
         </div>
-      <script src="./scr/index.js"></script>
+        <script src="./scr/index.js"></script>
 </body>
+
 </html>
