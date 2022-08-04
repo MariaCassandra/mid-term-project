@@ -487,6 +487,10 @@ p {
     float: right;
     display: block;
   }
+
+  #homelink {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -524,6 +528,7 @@ p {
     background-color: #f2f4fc;
   }
 
+ 
   #topnav-contact-btn {
     background-color: #072ac8;
     color: #f2f4fc;
@@ -557,6 +562,11 @@ p {
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
+  }
+
+  .hero-headline, 
+  .hero-paragraph {
+    text-align: left;
   }
 
   .hero-button-container {
@@ -622,8 +632,18 @@ p {
     width: 100%;
   }
 
-
+.project-headline, 
+.project-paragraph, 
+.project-link {
+  align-self: flex-start;
+  padding-left: 1.5rem;
+}
   /* testimonial section */
+
+  .testimonial-author {
+    padding-top: 5rem;
+  }
+
   #memoji1 {
     width: 10%;
   }
@@ -680,6 +700,25 @@ p {
     flex-direction: column;
     justify-content: center;
   }
+
+  #newsletter-form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .newsletter-input {
+    padding: 1rem 1.25rem;
+  }
+
+
+
+  .subscribe-btn {
+    padding: 1rem 1.5rem;
+  }
+
   /* footer */
 
   .footer-section {

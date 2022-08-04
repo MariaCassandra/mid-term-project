@@ -14,9 +14,11 @@
     <!-- NAV BAR-->
     <div class="topnav" id="myTopnav">
         <a id="topnav-logo" onclick="window.location.href='index.html'"> <img src="./assets/logos/circle.svg" alt="Circle Agency Logo"></a>
-        <a class="active" onclick="window.location.href='index.html'"> Home </a>
-        <a href="#project-section"> Projects </a>
-        <a href="##services-section"> Services </a>
+            <div id="topnavs-center">
+                <a class="active" id="homelink" onclick="window.location.href='index.html'"> Home </a>
+                <a href="#project-section"> Projects </a>
+                <a href="##services-section"> Services </a>
+            </div>
         <a id="topnav-contact-btn" onclick="window.location.href='contact.html'"> Contact Us </a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
             <i class="fa fa-bars"></i>
@@ -53,21 +55,21 @@
         <div class="project-article-container">
         <article class="project-article">
             <img src="./assets/projects-section/1.jpg" alt="project 1" />
-            <h3>Simplify</h3>
-            <p>UI Design & App Development</p>
-            <a onclick="window.location.href='simplify.html'"> Learn more </a>
+            <h3 class="project-headline">Simplify</h3>
+            <p class="project-paragraph">UI Design & App Development</p>
+            <a onclick="window.location.href='simplify.html'" class="project-link"> Learn more </a>
         </article>
         <article class="project-article">
             <img src="./assets/projects-section/2.jpg" alt="project 2" />
-            <h3>Dashcoin</h3>
-            <p>Web Development</p>
-            <a href="#"> Learn more </a>
+            <h3 class="project-headline">Dashcoin</h3>
+            <p class="project-paragraph">Web Development</p>
+            <a href="#" class="project-link"> Learn more </a>
         </article>
         <article class="project-article">
             <img src="./assets/projects-section/3.jpg" alt="project 3" />
-            <h3>Vectorify</h3>
-            <p>User Experience Design</p>
-            <a href="#"> Learn more </a>
+            <h3 class="project-headline">Vectorify</h3>
+            <p class="project-paragraph">User Experience Design</p>
+            <a href="#" class="project-link"> Learn more </a>
         </article>
         </div>
     </section>
@@ -114,7 +116,7 @@
         <h2>Do you have any questions?</h2>
         <p>Let us help you!</p>
         <form id="newsletter-form" name="email-form" method="get">
-            <input type="email" class="newsletter-input" maxlength="256" placeholder="Enter your email" required>
+            <input type="email" class="newsletter-input" maxlength="256" placeholder="    Enter your email" required>
         <button class="subscribe-btn">Subscribe</button>
         </form>
         

@@ -25,22 +25,22 @@
   <!-- CONTACT FORM -->
   <section class="contact-section">
     <h1>Contact Us</h1>
-    <form action="/register" class="contact-form" method="post">
+    <form action="/thankyou.html" name="myForm" class="contact-form" method="post">
 
       <label for="name">Full Name *</label>
-      <input type="text" placeholder="Enter your full name" required/>
+      <input type="text" name="fullname" placeholder="Enter your full name" required/>
 
       <label class="email-label" for="email">Email</label>
-      <input type="email" placeholder="Enter your email" required/>
+      <input type="email" name="emailAddress" placeholder="Enter your email" required/>
         
       <label class="phone-label" for="phone">Phone</label>
-      <input type="text" placeholder="Enter your phone number" required>
+      <input type="text" name="phoneNumber" placeholder="Enter your phone number" required>
         
       <label for="message">Message</label>
-      <textarea name="message" placeholder="Write your message here...."></textarea>
-
+      <textarea name="messagebox" placeholder="Write your message here...." required></textarea>
+      <button class="contact-submit-btn" onclick="return validateForm()">Submit</button>
     </form>
-    <button class="contact-submit-btn" onclick="clicked(event)">Submit</button>
+    
 
   </section>
   <!-- FOOTER SECTION -->

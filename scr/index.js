@@ -7,9 +7,36 @@ function myFunction() {
     }
   }
 
+
+/*
+
+contact page:
+<button class="contact-submit-btn" onclick="clicked(event)">Submit</button>
+
+JS:
   function clicked(e)
 {
     if(!confirm('Your message has been sent!')) {
         e.preventDefault();
     }
+}
+
+contact page:
+<button class="contact-submit-btn" onclick="return validateForm()">Submit</button>
+
+JS:*/
+function validateForm() {
+  let validation1 = document.forms["myForm"]["fullname"].value;
+  let validation2 = document.forms["myForm"]["emailAddress"].value;
+  let validation3 = document.forms["myForm"]["phoneNumber"].value;
+  let validation4 = document.forms["myForm"]["messagebox"].value;
+
+  if (validation1 == "" || validation2 == "" || validation3 == "" || validation4 == "") {
+    alert("The form can't be sent, you haven't filled in all the fields!");
+    return false;
+  }
+  else {
+    alert("Your message has been sent!");
+    return true;
+  }
 }
