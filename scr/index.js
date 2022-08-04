@@ -30,6 +30,7 @@ function validateForm() {
   let validation2 = document.forms["myForm"]["emailAddress"].value;
   let validation3 = document.forms["myForm"]["phoneNumber"].value;
   let validation4 = document.forms["myForm"]["messagebox"].value;
+  let redirect = "thankyou.html";
 
   if (validation1 == "" || validation2 == "" || validation3 == "" || validation4 == "") {
     alert("The form can't be sent, you haven't filled in all the fields!");
@@ -39,4 +40,5 @@ function validateForm() {
     alert("Your message has been sent!");
     return true;
   }
+  window.location.href = redirect;
 }
