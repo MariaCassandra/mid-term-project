@@ -9,7 +9,6 @@ function myFunction() {
 
 
 /*
-
 contact page:
 <button class="contact-submit-btn" onclick="clicked(event)">Submit</button>
 
@@ -20,11 +19,8 @@ JS:
         e.preventDefault();
     }
 }
+*/
 
-contact page:
-<button class="contact-submit-btn" onclick="return validateForm()">Submit</button>
-
-JS:*/
 function validateForm() {
   let validation1 = document.forms["myForm"]["fullname"].value;
   let validation2 = document.forms["myForm"]["emailAddress"].value;
@@ -33,12 +29,11 @@ function validateForm() {
   let redirect = "thankyou.html";
 
   if (validation1 == "" || validation2 == "" || validation3 == "" || validation4 == "") {
-    alert("The form can't be sent, you haven't filled in all the fields!");
+    alert("The form can't be sent because you haven't filled in all the fields!");
     return false;
   }
   else {
     alert("Your message has been sent!");
     return true;
   }
-  window.location.href = redirect;
 }

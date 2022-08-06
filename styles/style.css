@@ -420,6 +420,12 @@ p {
   margin: 1.5rem 1.5rem 1rem 0;
 }
 
+.simplify-description-paragraph1, .simplify-description-paragraph2 {
+  padding: 1rem;
+  text-align: left;
+  line-height: 1.5rem;
+}
+
 /* CONTACT FORM */
 .contact-section {
   display: flex;
@@ -458,17 +464,19 @@ p {
 
 .contact-form textarea {
   font-family: Roboto, sans-serif;
+  width: 47%;
 }
 
 .contact-submit-btn {
   background-color: #072ac8;
   color: #f2f4fc;
+  width: 55%;
   padding: 1rem 1.25rem;
   font-size: 1rem;
   cursor: pointer;
   border: none;
   text-decoration: none;
-  margin: 0 1rem;
+  margin: 0.5rem 1rem;
 }
 
 .contact-submit-btn:hover {
@@ -732,6 +740,10 @@ p {
     align-items: flex-start;
   }
 
+  .footer-address {
+    text-align: left;
+  }
+
   /* SIMPLIFY PAGE */
 
   .simplify-section {
@@ -772,10 +784,12 @@ p {
 
   .contact-form textarea {
     height: 6rem;
+    width: 98.5%;
   }
 
   .contact-submit-btn {
     margin: 0;
+    width: 100%;
   }
 
    /* THANK YOU PAGE */
