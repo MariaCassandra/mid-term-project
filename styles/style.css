@@ -534,7 +534,7 @@ p {
   }
 }
 
-/* tablets  */
+/* tablets - HIDDEN BECAUSE THE TABLET SETTINGS ARE MESSING UP COMPLETELY THE MOBILE SETTINGS
 @media (max-width: 1024px) {
     #myTopnav {
     display: flex;
@@ -566,8 +566,6 @@ p {
     transition: .5s ease-in-out 0s;
   }
 
-   /* hero section */
-   
   .hero-headline, 
   .hero-paragraph {
     text-align: center;
@@ -596,7 +594,7 @@ p {
     justify-content: space-around
   }
 
-  /* contact page */
+
   .contact-section {
     display: flex;
     flex-direction: column;
@@ -639,6 +637,8 @@ p {
   }
 
 }
+*/
+
 
 
 /* Desktop devices */
