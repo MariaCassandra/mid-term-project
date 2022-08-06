@@ -152,6 +152,7 @@ body {
   flex-direction: column;
   align-items: center;
   padding-bottom: 1.5rem;
+  box-shadow: 0px 38.7755px 77.551px rgba(0, 0, 0, 0.1);
 }
 
 .project-section img {
@@ -485,7 +486,9 @@ p {
   transition: .5s ease-in-out 0s;
 }
 
-/* MEDIA QUERIES */
+/**********************************************************
+ *********************** MEDIA QUERIES **********************
+ **********************************************************/
 
 @media screen and (max-width: 768px) {
   .topnav a:not(:first-child) {
@@ -531,9 +534,112 @@ p {
   }
 }
 
-/* tablets  
-@media (max-width: 1024px) {}
-*/
+/* tablets  */
+@media (max-width: 1024px) {
+    #myTopnav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1.8rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: #f2f4fc;
+  }
+
+ 
+  #topnav-contact-btn {
+    background-color: #072ac8;
+    color: #f2f4fc;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+  }
+
+  #topnav-contact-btn:hover {
+    background-color: #43d2ff;
+    color: #072ac8;
+    transition: .5s ease-in-out 0s;
+  }
+
+   /* hero section */
+   
+  .hero-headline, 
+  .hero-paragraph {
+    text-align: center;
+  }
+
+  .hero-button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .hero-contact-btn {
+    align-self: center;
+    padding: 1rem;
+  }
+
+  .hero-article-right {
+    width: 70%;
+    justify-content: center;
+  }
+
+  .collaboration-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+  }
+
+  /* contact page */
+  .contact-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+  }
+  .contact-form {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 0.75rem;
+  }
+
+  .email-phone-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .email-article {
+    display: flex;
+    flex-direction: column;
+    width: 49%;
+  }
+
+  .phone-article {
+    display: flex;
+    flex-direction: column;
+    width: 49%;
+  }
+
+
+  .contact-form textarea {
+    height: 3rem;
+    width: 97%;
+  }
+
+  .contact-submit-btn {
+    margin: 0;
+    width: 100%;
+  }
+
+}
+
 
 /* Desktop devices */
 
