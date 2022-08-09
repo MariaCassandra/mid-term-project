@@ -747,7 +747,7 @@ p {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    gap: 1rem;
+    width: 80%;
   }
 
   .project-article {
@@ -802,7 +802,7 @@ p {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    gap: 1rem;
+    width: 80%;
   }
 
   .services-article {
@@ -810,6 +810,7 @@ p {
     flex-direction: column;
     justify-content: space-between;
     background-color: #fff;
+    width: 30%;
   }
 
   .service-image {
