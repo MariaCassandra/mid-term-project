@@ -74,7 +74,7 @@ body {
 .hero-contact-btn:hover {
   background-color: #43d2ff;
   color: #072ac8;
-  transition: .5s ease-in-out 0s;
+  transition: 0.5s ease-in-out 0s;
 }
 
 .our-work-btn {
@@ -89,7 +89,7 @@ body {
 .our-work-btn:hover {
   color: #072ac8;
   transform: scale(1.1);
-  transition: .5s ease-in-out 0s;
+  transition: 0.5s ease-in-out 0s;
 }
 
 .hero-article-right {
@@ -131,7 +131,7 @@ body {
 .collaboration-section img:hover {
   transform: scale(1.4);
   cursor: pointer;
-  transition: .5s ease-in-out 0s;
+  transition: 0.5s ease-in-out 0s;
 }
 
 /* PROJECT SECTION */
@@ -348,7 +348,7 @@ p {
 .subscribe-btn:hover {
   background-color: #43d2ff;
   color: #072ac8;
-  transition: .5s ease-in-out 0s;
+  transition: 0.5s ease-in-out 0s;
 }
 
 /* FOOTER SECTION */
@@ -422,7 +422,8 @@ p {
   margin: 1.5rem 1.5rem 1rem 0;
 }
 
-.simplify-description-paragraph1, .simplify-description-paragraph2 {
+.simplify-description-paragraph1,
+.simplify-description-paragraph2 {
   padding: 1rem;
   text-align: left;
   line-height: 1.5rem;
@@ -443,7 +444,7 @@ p {
   margin-bottom: 2rem;
 }
 
-.contact-form  {
+.contact-form {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -483,7 +484,7 @@ p {
 .contact-submit-btn:hover {
   background-color: #43d2ff;
   color: #072ac8;
-  transition: .5s ease-in-out 0s;
+  transition: 0.5s ease-in-out 0s;
 }
 
 /**********************************************************
@@ -519,14 +520,14 @@ p {
     text-align: left;
   }
 
-  .contact-form  {
+  .contact-form {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  
+
   .email-phone-section,
-  .email-article, 
+  .email-article,
   .phone-article {
     display: flex;
     flex-direction: column;
@@ -534,8 +535,9 @@ p {
   }
 }
 
+/* Tablets */
 @media (min-width: 769px) and (max-width: 1024px) {
-    #myTopnav {
+  #myTopnav {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -546,7 +548,6 @@ p {
     background-color: #f2f4fc;
   }
 
- 
   #topnav-contact-btn {
     background-color: #072ac8;
     color: #f2f4fc;
@@ -562,10 +563,10 @@ p {
   #topnav-contact-btn:hover {
     background-color: #43d2ff;
     color: #072ac8;
-    transition: .5s ease-in-out 0s;
+    transition: 0.5s ease-in-out 0s;
   }
 
-  .hero-headline, 
+  .hero-headline,
   .hero-paragraph {
     text-align: center;
   }
@@ -585,14 +586,26 @@ p {
   .hero-article-right {
     width: 70%;
     justify-content: center;
+    align-items: center;
+    margin: 3rem 0 2rem 7rem;
+  }
+  
+  .testimonial-text {
+    margin-top: 1.5rem;
+  }
+
+  .testimonial-author {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
   }
 
   .collaboration-section {
     display: flex;
     flex-direction: row;
-    justify-content: space-around
+    justify-content: space-around;
   }
-
 
   .contact-section {
     display: flex;
@@ -624,7 +637,6 @@ p {
     width: 49%;
   }
 
-
   .contact-form textarea {
     height: 3rem;
     width: 97%;
@@ -634,9 +646,7 @@ p {
     margin: 0;
     width: 100%;
   }
-
 }
-
 
 /* Desktop devices */
 
@@ -653,7 +663,6 @@ p {
     background-color: #f2f4fc;
   }
 
- 
   #topnav-contact-btn {
     background-color: #072ac8;
     color: #f2f4fc;
@@ -669,7 +678,7 @@ p {
   #topnav-contact-btn:hover {
     background-color: #43d2ff;
     color: #072ac8;
-    transition: .5s ease-in-out 0s;
+    transition: 0.5s ease-in-out 0s;
   }
 
   /* hero section */
@@ -689,7 +698,7 @@ p {
     justify-content: flex-start;
   }
 
-  .hero-headline, 
+  .hero-headline,
   .hero-paragraph {
     text-align: left;
   }
@@ -761,12 +770,12 @@ p {
     aspect-ratio: 2/1;
   }
 
-.project-headline, 
-.project-paragraph, 
-.project-link {
-  align-self: flex-start;
-  padding-left: 1.5rem;
-}
+  .project-headline,
+  .project-paragraph,
+  .project-link {
+    align-self: flex-start;
+    padding-left: 1.5rem;
+  }
   /* testimonial section */
 
   .testimonial-author {
@@ -823,7 +832,7 @@ p {
     padding: 0.75rem 0;
   }
   /* newsletter section */
-  
+
   .newsletter-section {
     height: 30rem;
     display: flex;
@@ -842,8 +851,6 @@ p {
   .newsletter-input {
     padding: 1rem 1.25rem;
   }
-
-
 
   .subscribe-btn {
     padding: 1rem 1.5rem;
@@ -922,7 +929,6 @@ p {
     width: 49%;
   }
 
-
   .contact-form textarea {
     height: 6rem;
     width: 98.5%;
@@ -933,6 +939,5 @@ p {
     width: 100%;
   }
 
-   /* THANK YOU PAGE */
-
+  /* THANK YOU PAGE */
 }
