@@ -534,8 +534,7 @@ p {
   }
 }
 
-/* tablets - HIDDEN BECAUSE THE TABLET SETTINGS ARE MESSING UP COMPLETELY THE MOBILE SETTINGS
-@media (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1024px) {
     #myTopnav {
     display: flex;
     align-items: center;
@@ -637,8 +636,6 @@ p {
   }
 
 }
-*/
-
 
 
 /* Desktop devices */
@@ -756,8 +753,12 @@ p {
     box-shadow: 0px 2.5rem 4.8rem rgba(159, 1, 238, 0.1);
   }
 
-  .project-article img {
+  .project-article > .card-img {
     width: 100%;
+  }
+
+  .card-img {
+    aspect-ratio: 2/1;
   }
 
 .project-headline, 
